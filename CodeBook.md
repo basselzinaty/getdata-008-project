@@ -1,10 +1,10 @@
-The R script run_analysis.R takes as input data (and meta data) files from the "Human Activity Recognition Using Smartphones Data Set" , which represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
+The R script run_analysis.R takes as input data (and meta data) files from the "Human Activity Recognition Using Smartphones" dataset, which represent data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
 More information about the original data can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The script then "cleans" the data and returns a "tidy" dataset of mean and standard deviations for further analysis.
 
-The first output is data_averages.txt. It contains data about the 6 activities, collected from 30 subjects
+The first output is data_final.txt. It contains data about the 6 activities, collected from 30 subjects
 
 The activities are:
 
@@ -44,4 +44,4 @@ The variables describing these activities are listed below. They are the average
 where a preceding t stands for time and an f stands for Fourier transform.
 
 
-The second data set (data_averages.txt) contains means for each subject for the above-mentioned variables.
+The second data set (data_averages.txt) contains the mean for each of the 30 subject for the above-mentioned variables.
