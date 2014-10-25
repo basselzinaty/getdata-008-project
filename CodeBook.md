@@ -16,7 +16,7 @@ The data_averages text output contains data about the following 6 activities:
 
 
 The data is collected from 30 subjects
-The data contains averages for the x,y,z coordinates for the following variables
+The data contains average for the x,y,z coordinates for the following variables
 
 * tbodyacc
 * tgravityacc
